@@ -23,10 +23,10 @@ def read_input_file(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         return file.read().splitlines()
 
-#fájl beolvasása
+# fájl beolvasása
 input_strings = read_input_file('input.txt')
 
-#eredmények kiírása
+# eredmények kiírása
 for s in input_strings:
     result = analyze_string(s)
     print(result)
